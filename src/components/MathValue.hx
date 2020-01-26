@@ -1,7 +1,7 @@
 class MathValue {
 	var value:Int = 0;
 
-	static function main(number:Int) {
+	public function new(number:Int) {
         value = number;
 	}
 
@@ -27,9 +27,5 @@ class MathValue {
 		if(number <= 10 || number > 0) {
 			minus(number);
 		}
-	}
-
-	private function base() {
-		
 	}
 }
