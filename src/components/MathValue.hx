@@ -1,5 +1,6 @@
 class MathValue {
 	var value:Int = 0;
+	var value2:String = "1";
 
 	public function new(number:Int) {
         value = number;
