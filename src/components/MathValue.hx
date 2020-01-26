@@ -28,4 +28,8 @@ class MathValue {
 			minus(number);
 		}
 	}
+
+	private function base() {
+		
+	}
 }
